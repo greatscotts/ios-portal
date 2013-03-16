@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C2034" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="bdc-dx-ZBU">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Nationalnews-->
+        <scene sceneID="9Fi-aj-lp6">
+            <objects>
+                <viewController id="bdc-dx-ZBU" customClass="nationalnews" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="py2-1G-A1A">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="checker_bottom@2x.png" translatesAutoresizingMaskIntoConstraints="NO" id="9fU-xF-4uW">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="U3r-rO-Tyd"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pupcet.png" translatesAutoresizingMaskIntoConstraints="NO" id="WbM-na-EPb">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="331" id="PKh-HG-fVy"/>
+                                    <constraint firstAttribute="height" constant="54" id="V4n-Td-vdH"/>
+                                </constraints>
+                            </imageView>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lk0-DY-eFP">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="364" id="eez-L4-d8P"/>
+                                </constraints>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i39-Eb-b4A">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="5b5-LT-UWC"/>
+                                    <constraint firstAttribute="height" constant="39" id="ivc-ab-gTF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="1_navigation_back.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sisback" destination="bdc-dx-ZBU" eventType="touchUpInside" id="g2Q-3K-Mw4"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="NATIONAL " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dx9-NZ-ysS">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="279" id="NGy-sd-U4k"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Dx9-NZ-ysS" firstAttribute="centerY" secondItem="i39-Eb-b4A" secondAttribute="centerY" type="default" id="01j-CC-uHi"/>
+                            <constraint firstItem="WbM-na-EPb" firstAttribute="top" secondItem="py2-1G-A1A" secondAttribute="top" type="default" id="1XR-A1-zz6"/>
+                            <constraint firstItem="9fU-xF-4uW" firstAttribute="bottom" secondItem="py2-1G-A1A" secondAttribute="bottom" type="default" id="231-2R-KYW"/>
+                            <constraint firstItem="i39-Eb-b4A" firstAttribute="leading" secondItem="py2-1G-A1A" secondAttribute="leading" type="default" id="6ur-8n-81b"/>
+                            <constraint firstItem="lk0-DY-eFP" firstAttribute="trailing" secondItem="py2-1G-A1A" secondAttribute="trailing" type="default" id="Gpj-nD-b7L"/>
+                            <constraint firstItem="9fU-xF-4uW" firstAttribute="leading" secondItem="py2-1G-A1A" secondAttribute="leading" type="default" id="S6t-5l-SS9"/>
+                            <constraint firstItem="lk0-DY-eFP" firstAttribute="top" secondItem="i39-Eb-b4A" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Sl2-IM-uAz"/>
+                            <constraint firstItem="9fU-xF-4uW" firstAttribute="trailing" secondItem="py2-1G-A1A" secondAttribute="trailing" type="default" id="T2j-Yb-t7z"/>
+                            <constraint firstItem="lk0-DY-eFP" firstAttribute="leading" secondItem="py2-1G-A1A" secondAttribute="leading" type="default" id="T4v-Fr-shC"/>
+                            <constraint firstItem="WbM-na-EPb" firstAttribute="centerX" secondItem="lk0-DY-eFP" secondAttribute="centerX" type="default" id="Uuz-Fo-L1y"/>
+                            <constraint firstItem="Dx9-NZ-ysS" firstAttribute="leading" secondItem="py2-1G-A1A" secondAttribute="leading" constant="109" id="W6X-e0-zPS"/>
+                            <constraint firstItem="Dx9-NZ-ysS" firstAttribute="centerY" secondItem="WbM-na-EPb" secondAttribute="centerY" type="default" id="k9W-wM-jqx"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="myWebView" destination="lk0-DY-eFP" id="mDF-E4-YjL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1hi-Ux-8t8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="92" y="12"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1_navigation_back.png" width="48" height="48"/>
+        <image name="checker_bottom@2x.png" width="640" height="46"/>
+        <image name="pupcet.png" width="800" height="134"/>
+    </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="nationalnews" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/nationalnews.h"/>
+            <relationships>
+                <relationship kind="action" name="sisback"/>
+                <relationship kind="outlet" name="myWebView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

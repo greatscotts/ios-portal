@@ -7,7 +7,35 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GAITrackedViewController.h"
 
-@interface ViewController : UIViewController
+
+@interface ViewController : GAITrackedViewController
+
+-(IBAction)gotoSettings;
+
+-(IBAction)gotoThird;
+
+-(IBAction)gotoSis;
+
+-(IBAction)gotoAlumni;
+
+
+-(IBAction)gotoGuest;
+
+-(IBAction)gotoFaculty;
+
+-(IBAction)gotoNews;
+
+-(IBAction)gotoinfo;
+
+-(IBAction)gotosocials;
+
+-(IBAction)gotostats;
+
+
+-(IBAction)gotomisc;
+
+
 
 @end

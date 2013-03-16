@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C2034" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Wky-hE-osA">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Misc1 - CALENDAR-->
+        <scene sceneID="fmq-ok-ibD">
+            <objects>
+                <viewController id="Rbn-P2-cb5" customClass="misc1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pT5-YW-4Fd">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XPM-ap-OzN">
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cXZ-Y7-tDK">
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="312" id="cCE-Im-cBN"/>
+                                            <constraint firstAttribute="height" constant="208" id="jtV-c3-GwW"/>
+                                        </constraints>
+                                        <string key="text">April
+16-May 8 	First Year Registration 
+Jun  1-2	Second Year Registration 
+3-4	Third Year Registration 
+5-6	Fourth Year Registration 
+7-8	Fifth Year Registration
+15	College Faculty Meeting
+18	First Semester Classes Start
+19-30	 Adjustment Period
+30	 Last day of payment of tuition and fees without fine 
+Deadline for submission of adjustment form/s or application for change of enrollment (ACE) forms to OUR 
+July  \n \n 2-27	 Issuance of application for graduation, Mid-year 2012-2013 
+27 	 Deadline for submission of application for Mid-year graduation 2012-2013 
+August	  \n\n 13-18	Mid-term Examinations 
+19	 Mid-term Departmental Examinations 
+25	 Encoding of Mid-term grades 
+
+Deadline of Completion of Incomplete Marks, First Semester 2011-2012
+27	National Heroes Day 
+31	Last day for graduating students to clear their deficiencies 
+September    3	 PUPCET 2013 application starts 
+October	  1 and 2	PUP 108th Foundation Anniversary 
+11-17	Final Examinations, Graduating and Non-Graduating Students 
+14	 Final Departmental Examinations 
+19	 Integration Period/Round-up activities 
+
+Submission of pink card grades from Dean's Office to OUR
+
+Submission of First Semester 2012-2013 gradesheets to the Dean
+
+Distribution of classcards
+
+Submission of subject offerings for Second Semester, 2012-2013 
+20	First Semester Ends
+
+Encoding of Final Grades
+27	 Submission of First Semester 2012-2013 gradesheets to OUR   
+November  
+November	9	 University Academic Council Meeting 
+December	7	Mid-Year Commencement Exercises 
+Second Semester 2012  
+October  22-23	First Year Registration 
+24-25	Second Year Registration  
+26-27	Third Year Registration 
+29-30	Fourth Year Registration  
+31	Fifth Year Registration 
+
+College Faculty Meeting  
+November  1	All Saints' Day 
+5	Second Semester Classes Start  
+5	 Resumption of PUPCET 2013 Applications  
+6-19	 Adjustment Period  
+9	 University Academic Council Meeting  
+19	 Last day of payment of tuition and fees without fine 
+
+Deadline for submission of adjustment form/s or application for change of enrollment (ACE) forms to OUR
+19-Dec 7	 Issuance of application for Year-End Graduation, 2012-2013  
+30	 Bonifacio Day  
+December	3	 LAST DAY OF PAYMENT WITH FINE
+
+SIS CLOSED FOR REGISTRATION  
+7	Mid-Year Commencement Exercises 
+
+Deadline for submission of application for Year-End Graduation  2012-2013   
+17-Jan 2	Christmas Vacation
+30	Rizal Day 
+2nd Semester 2013  
+January 1	New Year's Day  
+3	Classes Resume  
+20	 Mid-term Departmental Examinations 
+21-26	Mid-term Examinations  
+27	 PUPCET 2013 First Batch  
+February   1	 Last day for graduating students to clear their deficiencies 
+2	 Encoding of Mid-term grades
+
+Deadline of Completion of Incomplete Marks Second Semester 2010-2011 
+10	PUPLHS 2013 Entrance Exam  
+17	PUPCET 2013 Second Batch  
+March	 18-23	Final Examinations - Graduating and Non-Graduating Students 
+26-27	 Integration Period/Round-up activities
+
+Submission of pink card grades from the Deans to OUR
+
+Submission of Summer 2013 subject offerings to OUR
+
+Distribution of classcards  
+27	Second Semester Ends 
+
+Encoding of Final Grades  
+28	Long Vacation begins  
+April   2	 Submission of Second Semester 2012-2013 gradesheets to the Dean  
+6	 Submission of Second Semester 2012-2013 gradesheets to OUR  
+12	 University Academic Council Meeting  
+May	10	Year-End Commencement Exercises 2012-2013 
+Summer 2013 
+April	 \n  \n1-5	 Registration Period  
+2	 Submission of subject offerings, First Semester 2013-2014 to OUR  
+9	 Araw ng Kagitingan  
+10	Summer Classes Start  
+26-27	Mid-term Examinations 
+
+Encoding of Mid-term grades
+
+DEADLINE OF COMPLETION OF INCOMPLETE MARKS SUMMER 2010-2011  
+May  1	Labor day  
+17-18	Final Examinations 
+
+Encoding of Final Grades  
+18	Round-up of activities 
+
+End of Summer Term  
+June	 \n 6	 Long Vacation Ends"</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="POLYTECHNIC UNIVERSITY OF THE PHILIPPINES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KvT-b2-iag">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="00j-TY-xvg"/>
+                                            <constraint firstAttribute="width" constant="394" id="fQQ-9a-t2z"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pupcet.png" translatesAutoresizingMaskIntoConstraints="NO" id="hkl-Ah-KbA">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="Anw-QF-rzD"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pup1.png" translatesAutoresizingMaskIntoConstraints="NO" id="kEW-jL-IIY">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="110" id="ZVw-bs-oeN"/>
+                                            <constraint firstAttribute="width" constant="120" id="dZh-3s-itx"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pupcet.png" translatesAutoresizingMaskIntoConstraints="NO" id="rgs-L7-z63"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="CALENDAR" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rlc-nI-HTb">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="279" id="gyE-9V-thc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJW-sJ-3Ty">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="1BN-Ti-PMR"/>
+                                            <constraint firstAttribute="width" constant="67" id="bav-I9-lfn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" image="1_navigation_back.png">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="sisback" destination="Rbn-P2-cb5" eventType="touchUpInside" id="BSj-RH-ipa"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="kEW-jL-IIY" firstAttribute="centerX" secondItem="XPM-ap-OzN" secondAttribute="centerX" type="default" id="2sS-is-SvN"/>
+                                    <constraint firstItem="kEW-jL-IIY" firstAttribute="top" secondItem="KvT-b2-iag" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="6hD-pY-m36"/>
+                                    <constraint firstItem="KvT-b2-iag" firstAttribute="top" secondItem="XPM-ap-OzN" secondAttribute="top" constant="45" id="8Nq-kW-bON"/>
+                                    <constraint firstItem="rgs-L7-z63" firstAttribute="top" secondItem="XPM-ap-OzN" secondAttribute="top" type="default" id="C22-pn-PmO"/>
+                                    <constraint firstItem="cXZ-Y7-tDK" firstAttribute="top" secondItem="XPM-ap-OzN" secondAttribute="top" constant="203" id="DIb-lf-gHd"/>
+                                    <constraint firstItem="rgs-L7-z63" firstAttribute="leading" secondItem="XPM-ap-OzN" secondAttribute="leading" type="default" id="E9f-Ez-t0C"/>
+                                    <constraint firstItem="rgs-L7-z63" firstAttribute="bottom" secondItem="hkl-Ah-KbA" secondAttribute="bottom" type="default" id="FHs-KI-InH"/>
+                                    <constraint firstItem="cXZ-Y7-tDK" firstAttribute="bottom" secondItem="XPM-ap-OzN" secondAttribute="bottom" type="default" id="NS1-XF-aZC"/>
+                                    <constraint firstItem="KvT-b2-iag" firstAttribute="leading" secondItem="XPM-ap-OzN" secondAttribute="leading" constant="6" id="R6N-8N-q2W"/>
+                                    <constraint firstItem="BJW-sJ-3Ty" firstAttribute="top" secondItem="XPM-ap-OzN" secondAttribute="top" type="default" id="UU8-q7-Mkg"/>
+                                    <constraint firstItem="kEW-jL-IIY" firstAttribute="centerX" secondItem="cXZ-Y7-tDK" secondAttribute="centerX" type="default" id="Xue-8e-NU9"/>
+                                    <constraint firstItem="BJW-sJ-3Ty" firstAttribute="leading" secondItem="XPM-ap-OzN" secondAttribute="leading" type="default" id="YPR-yl-lVX"/>
+                                    <constraint firstItem="hkl-Ah-KbA" firstAttribute="leading" secondItem="XPM-ap-OzN" secondAttribute="leading" type="default" id="ccK-Ls-p3C"/>
+                                    <constraint firstItem="hkl-Ah-KbA" firstAttribute="trailing" secondItem="XPM-ap-OzN" secondAttribute="trailing" type="default" id="gjj-2c-UJe"/>
+                                    <constraint firstItem="rgs-L7-z63" firstAttribute="centerX" secondItem="kEW-jL-IIY" secondAttribute="centerX" type="default" id="h3U-3t-HSg"/>
+                                    <constraint firstItem="Rlc-nI-HTb" firstAttribute="top" secondItem="XPM-ap-OzN" secondAttribute="top" constant="8" id="hbB-Pf-Y0x"/>
+                                    <constraint firstItem="Rlc-nI-HTb" firstAttribute="leading" secondItem="XPM-ap-OzN" secondAttribute="leading" constant="99" id="otd-Vo-pJU"/>
+                                    <constraint firstItem="rgs-L7-z63" firstAttribute="trailing" secondItem="XPM-ap-OzN" secondAttribute="trailing" type="default" id="pY2-Xk-J9d"/>
+                                    <constraint firstItem="hkl-Ah-KbA" firstAttribute="top" secondItem="XPM-ap-OzN" secondAttribute="top" type="default" id="rzu-bp-1VS"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XPM-ap-OzN" firstAttribute="top" secondItem="pT5-YW-4Fd" secondAttribute="top" type="default" id="0Z6-Cu-5jq"/>
+                            <constraint firstItem="XPM-ap-OzN" firstAttribute="leading" secondItem="pT5-YW-4Fd" secondAttribute="leading" type="default" id="8Jc-mL-wxM"/>
+                            <constraint firstItem="XPM-ap-OzN" firstAttribute="bottom" secondItem="pT5-YW-4Fd" secondAttribute="bottom" type="default" id="DNQ-Qm-sxQ"/>
+                            <constraint firstItem="XPM-ap-OzN" firstAttribute="trailing" secondItem="pT5-YW-4Fd" secondAttribute="trailing" type="default" id="Y6O-Dq-4bF"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="CALENDAR" id="lhA-v5-Gbw"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="loO-4l-sA2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-11" y="-1294"/>
+        </scene>
+        <!--Misc1 - GALLERY-->
+        <scene sceneID="zN1-Ob-Hth">
+            <objects>
+                <viewController id="MDZ-QH-RsD" customClass="misc1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NZ1-iv-vXy">
+                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dxt-d1-sre">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="txt1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QF2-hC-ron">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="108" id="iK8-eA-kyI"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="txt2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TK9-zH-JAv">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="141" id="uxr-af-AgX"/>
+                                            <constraint firstAttribute="height" constant="128" id="z82-NZ-oZB"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="txt6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="N5n-kr-7Ba">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="dHT-wk-d5h"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="txt7.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cdE-TY-2IQ">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="sUn-5R-RSV"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="txt5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nz5-Ef-HAk"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="txt3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SOs-zu-jSa">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="141" id="VIU-Z2-Xva"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pupcet.png" translatesAutoresizingMaskIntoConstraints="NO" id="Umy-uc-CYj">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="LZi-Or-anU"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="GALLERY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICh-yI-0j5">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="279" id="sU1-kH-HFT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16A-0H-WPd">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="67" id="4Dc-3Z-nnN"/>
+                                            <constraint firstAttribute="height" constant="39" id="JLd-tm-DU9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" image="1_navigation_back.png">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="sisback" destination="MDZ-QH-RsD" eventType="touchUpInside" id="sSN-13-Gwt"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Umy-uc-CYj" firstAttribute="centerX" secondItem="QF2-hC-ron" secondAttribute="centerX" type="default" id="0dK-ol-ePh"/>
+                                    <constraint firstItem="ICh-yI-0j5" firstAttribute="leading" secondItem="dxt-d1-sre" secondAttribute="leading" constant="108" id="5XW-kN-xt4"/>
+                                    <constraint firstItem="N5n-kr-7Ba" firstAttribute="leading" secondItem="TK9-zH-JAv" secondAttribute="leading" type="default" id="A9U-BQ-Yq8"/>
+                                    <constraint firstItem="SOs-zu-jSa" firstAttribute="leading" secondItem="TK9-zH-JAv" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="AOR-vS-8hI"/>
+                                    <constraint firstItem="SOs-zu-jSa" firstAttribute="leading" secondItem="nz5-Ef-HAk" secondAttribute="leading" type="default" id="IVs-VK-IEs"/>
+                                    <constraint firstItem="SOs-zu-jSa" firstAttribute="bottom" secondItem="TK9-zH-JAv" secondAttribute="bottom" type="default" id="InU-HF-4LI"/>
+                                    <constraint firstItem="TK9-zH-JAv" firstAttribute="top" secondItem="QF2-hC-ron" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="JfZ-Ey-6uZ"/>
+                                    <constraint firstItem="Umy-uc-CYj" firstAttribute="leading" secondItem="dxt-d1-sre" secondAttribute="leading" type="default" id="Myk-Mh-DKT"/>
+                                    <constraint firstItem="QF2-hC-ron" firstAttribute="top" secondItem="dxt-d1-sre" secondAttribute="top" constant="73" id="R7t-oo-w4i"/>
+                                    <constraint firstItem="cdE-TY-2IQ" firstAttribute="top" secondItem="nz5-Ef-HAk" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="UY2-bs-Npj"/>
+                                    <constraint firstItem="cdE-TY-2IQ" firstAttribute="top" secondItem="N5n-kr-7Ba" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="W0p-Qe-XoW"/>
+                                    <constraint firstItem="SOs-zu-jSa" firstAttribute="top" secondItem="QF2-hC-ron" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="WF9-IP-KWK"/>
+                                    <constraint firstItem="QF2-hC-ron" firstAttribute="centerX" secondItem="dxt-d1-sre" secondAttribute="centerX" type="default" id="a8p-Mh-M5H"/>
+                                    <constraint firstItem="N5n-kr-7Ba" firstAttribute="top" secondItem="dxt-d1-sre" secondAttribute="top" constant="330" id="aXz-AP-Uwz"/>
+                                    <constraint firstItem="Umy-uc-CYj" firstAttribute="trailing" secondItem="dxt-d1-sre" secondAttribute="trailing" type="default" id="bTs-fa-Nei"/>
+                                    <constraint firstItem="16A-0H-WPd" firstAttribute="leading" secondItem="dxt-d1-sre" secondAttribute="leading" type="default" id="cpp-Zc-Wvq"/>
+                                    <constraint firstItem="QF2-hC-ron" firstAttribute="trailing" secondItem="SOs-zu-jSa" secondAttribute="trailing" type="default" id="d0d-MU-7Nd"/>
+                                    <constraint firstItem="ICh-yI-0j5" firstAttribute="centerY" secondItem="Umy-uc-CYj" secondAttribute="centerY" type="default" id="gIs-wq-tpr"/>
+                                    <constraint firstItem="nz5-Ef-HAk" firstAttribute="top" secondItem="N5n-kr-7Ba" secondAttribute="top" type="default" id="hoV-Bk-bY4"/>
+                                    <constraint firstItem="16A-0H-WPd" firstAttribute="top" secondItem="dxt-d1-sre" secondAttribute="top" constant="13" id="iIf-eT-qz6"/>
+                                    <constraint firstItem="nz5-Ef-HAk" firstAttribute="trailing" secondItem="cdE-TY-2IQ" secondAttribute="trailing" type="default" id="iZJ-ko-Byw"/>
+                                    <constraint firstItem="QF2-hC-ron" firstAttribute="leading" secondItem="TK9-zH-JAv" secondAttribute="leading" type="default" id="kO0-5l-RL6"/>
+                                    <constraint firstAttribute="bottom" secondItem="N5n-kr-7Ba" secondAttribute="bottom" constant="42" id="m9y-xN-WEI"/>
+                                    <constraint firstItem="N5n-kr-7Ba" firstAttribute="leading" secondItem="cdE-TY-2IQ" secondAttribute="leading" type="default" id="rGu-7d-x1y"/>
+                                    <constraint firstItem="SOs-zu-jSa" firstAttribute="trailing" secondItem="nz5-Ef-HAk" secondAttribute="trailing" type="default" id="rcT-mo-epI"/>
+                                    <constraint firstItem="nz5-Ef-HAk" firstAttribute="leading" secondItem="N5n-kr-7Ba" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="uAG-jz-vwe"/>
+                                    <constraint firstItem="Umy-uc-CYj" firstAttribute="top" secondItem="dxt-d1-sre" secondAttribute="top" constant="11" id="zNT-CO-c2T"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dxt-d1-sre" firstAttribute="leading" secondItem="NZ1-iv-vXy" secondAttribute="leading" type="default" id="IpD-2g-Yax"/>
+                            <constraint firstAttribute="bottom" secondItem="dxt-d1-sre" secondAttribute="bottom" constant="10" id="NgP-fP-L6l"/>
+                            <constraint firstItem="dxt-d1-sre" firstAttribute="top" secondItem="NZ1-iv-vXy" secondAttribute="top" constant="-11" id="bM0-iJ-qki"/>
+                            <constraint firstItem="dxt-d1-sre" firstAttribute="trailing" secondItem="NZ1-iv-vXy" secondAttribute="trailing" type="default" id="wXA-rU-bFi"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="GALLERY" id="VuX-Ld-L0B"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5f0-sR-msk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-11" y="-20"/>
+        </scene>
+        <!--Misc1 - PROFILE-->
+        <scene sceneID="pDj-M5-DyL">
+            <objects>
+                <viewController id="KZj-9u-ZVN" customClass="misc1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oDN-Qx-Iwo">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pupcet.png" translatesAutoresizingMaskIntoConstraints="NO" id="f6B-wU-gbH">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="pWE-ty-Faf"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pup1.png" translatesAutoresizingMaskIntoConstraints="NO" id="mZU-ie-nb6">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="zSk-E8-cKD"/>
+                                    <constraint firstAttribute="height" constant="110" id="zwt-W4-YAo"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="POLYTECHNIC UNIVERSITY OF THE PHILIPPINES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auw-ta-Z9s">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="9oe-Vc-cOp"/>
+                                    <constraint firstAttribute="width" constant="394" id="Z7d-72-v0N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="etV-Ii-hyy">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="210" id="T4K-ih-o7Y"/>
+                                    <constraint firstAttribute="width" constant="312" id="Tuc-CC-dRy"/>
+                                </constraints>
+                                <string key="text">The Polytechnic University of the Philippines (PUP) is a government educational institution governed by Republic Act Number 8292 known as the Higher Education Modernization Act of 1997, and its Implementing Rules and Regulations contained in the Commission on Higher Education Memorandum Circular No. 4, series 1997. PUP is one of the country's highly competent educational institutions. The PUP Community is composed of the Board of Regents, University Officials, Administrative and Academic Personnel, Students, various Organizations, and the Alumni.
+
+Governance of PUP is vested upon the Board of Regents, which exercises policy-making functions to carry out the mission and programs of the University by virtue of RA 8292 granted by the Commission on Higher Education. The University is administered by an appointed President by virtue of RA 8292 and is assisted by an Executive Vice President and the Vice Presidents for Academic Affairs, Student Services, Administration, Research, Extension and Development, and Finance.
+        
+
+This institution started as the Manila Business School (MBS), founded in October 19, 1904 as part of the city school system under the superintendence of C.A. O’Reilley, which responds to the demand for training personnel for government service and the felt need to provide skills essential for private employment. In 1908, it was renamed as Philippine School of Commerce (PSC) and merged with the Philippine Normal School (PNS) in 1933 to 1946. By virtue of Republic Act 778, the PSC was again changed to Philippine College of Commerce (PCC) in 1952. Subsequently, the Philippine College of Commerce (PCC) was converted into a chartered state university, now known as the Polytechnic University of the Philippines by virtue of Presidential Decree Number 1341 issued by the President of the Philippines on April 1, 1978.
+
+PUP is a public, non-sectarian, non-profit institution of higher learning primarily tasked with harnessing the tremendous human resources potential of the nation by improving the physical, intellectual and material well-being of the individual through higher occupational, technical and professional instruction and training in the applied arts and sciences related to the fields of commerce, business administration, and technology.
+
+
+The University promotes applied research, advanced studies and progressive leadership in the stated fields. We also offer ladder-type higher vocational, distance learning (open university system), technical and professional programs in the area of business and distributive arts, education and the social sciences related to the fields of commerce, business administration and other polytechnic areas. Furthermore, the University takes steps to enrich the academic program in other fields of study and adopts a polytechnic program of education designed to provide the individual with employable skills and managerial know-how in order to make them creative, productive and self-reliant.
+
+PUP operates year-round with two semesters and a summer. Summer sessions depend on the course and on the campus.  The University employs 1,483 full-time and part-time faculty members with a few of the full-time faculty holding administrative positions. There are 707 regular and casual administrative employees who provide support services to the University population. The faculty spends two-thirds of their time in teaching and one-third in research and extension activities.
+
+One of the major functions of the University is research, a key component of scholarship and teaching. During the years under review, PUP received and allotted government and private funding to research.
+
+With more than twenty campuses serving more than 68,000 students, the Polytechnic University of the Philippines is the largest university in terms of student population. The main campus is named after a national hero, Apolinario Mabini and is located in Sta. Mesa, Manila - in the middle of a busy metropolitan. But despite of this, the environment within its perimeter is a place conducive of learning.
+
+Majority of the students belong to the economically challenged level of society. It is the University's commitment to give qualified and talented students access to quality and responsive education to aid them in the achievement of their dreams and improve their lives. Being a well-educated and skilled individual, they will not only become job seekers but job creators as well, a force of knowledge workers and entrepreneurs.
+
+Scholars of the Nation (Iskolar ng Bayan), that is what we call our students because the Philippine Government and other non-government institutions subsidize their tuition and other fees. More than a hundred of the student population are foreigners from China, Singapore, Indonesia, Cambodia, Myanmar, Tanzania, Nigeria, and Ghana. They are enrolled in business, language, statistics, communication, and education courses in the undergraduate and graduate levels. Students from Korea regularly visit PUP in summer to take up Intensive English courses.
+
+The Polytechnic University of the Philippines takes pride in its capability to accommodate the student needs because it:
+
+Has more than 20 campuses to make education accessible to everyone;
+Offers a wide range of courses: doctorate, master’s, and bachelor’s degrees as well as technology courses available through traditional and open, flexible or distance learning;
+Pioneered the ladderized system and the accreditation and equivalency system through the Expanded Tertiary Education Equivalency and Accreditation Program (ETEEAP) and the Nontraditional System Program (NTSP);
+Maintains an average size of 45-50 students per class;
+Offers an extensive selection of educational choices through more than 60 undergraduate and graduate programs;
+Schedules weekend and evening classes;
+Brings the resources and programs of PUP not only to full-time students but also to part-time and adult learners; and
+Provides a long list of extension services for the community and the country.
+
+The commitment of its leaders, faculty, staff, students, alumni and friends has formed the cornerstone of this University that has exceeded expectations with every generation of the graduates it has produced since its establishment.
+
+Today, PUP is relishing its successes and its students are enjoying unprecedented academic opportunities, an enhanced campus environment, upgraded colleges, state-of-the-art technology, and nationally and internationally recognized programs.
+
+PUP celebrated its centenary last October 2004. It has gone far from what it was more than a century ago. This is mainly due to the support given by the government and the PUP Community and its benefactors. With the combined effort, PUP will continue to be a partner in nation-building and in poverty alleviation for the marginalized sector of society with quality, responsive, and relevant education as a tool."
+            android:textAppearance="?android:attr/textAppearanceMedium</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="PROFILE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oF0-Qk-OMO">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="279" id="5V5-rm-7N2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJ6-Rn-txA">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="Mih-sh-JMs"/>
+                                    <constraint firstAttribute="width" constant="67" id="lLI-wW-EJK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="1_navigation_back.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sisback" destination="KZj-9u-ZVN" eventType="touchUpInside" id="QET-bs-2wQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lJ6-Rn-txA" firstAttribute="leading" secondItem="oDN-Qx-Iwo" secondAttribute="leading" type="default" id="4K2-H4-zPk"/>
+                            <constraint firstItem="oF0-Qk-OMO" firstAttribute="centerY" secondItem="f6B-wU-gbH" secondAttribute="centerY" type="default" id="61m-h5-Fxr"/>
+                            <constraint firstItem="f6B-wU-gbH" firstAttribute="trailing" secondItem="oDN-Qx-Iwo" secondAttribute="trailing" type="default" id="DEl-dt-D0t"/>
+                            <constraint firstItem="mZU-ie-nb6" firstAttribute="top" secondItem="auw-ta-Z9s" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Hta-hx-xEc"/>
+                            <constraint firstItem="auw-ta-Z9s" firstAttribute="top" secondItem="f6B-wU-gbH" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="KWK-q5-wiE"/>
+                            <constraint firstItem="etV-Ii-hyy" firstAttribute="top" secondItem="oDN-Qx-Iwo" secondAttribute="top" constant="206" id="PjJ-Bk-rWw"/>
+                            <constraint firstItem="oF0-Qk-OMO" firstAttribute="leading" secondItem="oDN-Qx-Iwo" secondAttribute="leading" constant="112" id="U4Y-vh-LwB"/>
+                            <constraint firstItem="lJ6-Rn-txA" firstAttribute="top" secondItem="oDN-Qx-Iwo" secondAttribute="top" constant="2" id="eSm-qZ-gV8"/>
+                            <constraint firstItem="etV-Ii-hyy" firstAttribute="leading" secondItem="oDN-Qx-Iwo" secondAttribute="leading" type="default" id="m3c-eZ-2JX"/>
+                            <constraint firstItem="auw-ta-Z9s" firstAttribute="leading" secondItem="oDN-Qx-Iwo" secondAttribute="leading" constant="8" id="muE-6I-CiO"/>
+                            <constraint firstItem="f6B-wU-gbH" firstAttribute="leading" secondItem="oDN-Qx-Iwo" secondAttribute="leading" type="default" id="nuw-dG-BOg"/>
+                            <constraint firstItem="mZU-ie-nb6" firstAttribute="leading" secondItem="oDN-Qx-Iwo" secondAttribute="leading" constant="105" id="sFJ-G3-2b6"/>
+                            <constraint firstItem="f6B-wU-gbH" firstAttribute="top" secondItem="oDN-Qx-Iwo" secondAttribute="top" type="default" id="zvq-2Y-00Y"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="PROFILE" id="RtB-wQ-Nip"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pUl-yF-3qQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-11" y="-673"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="hyS-oc-837">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="Wky-hE-osA" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="CYj-sv-gfD">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="KZj-9u-ZVN" kind="relationship" relationship="viewControllers" id="les-kp-Mcx"/>
+                        <segue destination="MDZ-QH-RsD" kind="relationship" relationship="viewControllers" id="jtX-Nj-Yz8"/>
+                        <segue destination="Rbn-P2-cb5" kind="relationship" relationship="viewControllers" id="MK4-9p-0u9"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fwQ-Cq-JeZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-545" y="-346"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1_navigation_back.png" width="48" height="48"/>
+        <image name="pup1.png" width="507" height="524"/>
+        <image name="pupcet.png" width="800" height="134"/>
+        <image name="txt1.jpg" width="500" height="303"/>
+        <image name="txt2.jpg" width="550" height="440"/>
+        <image name="txt3.jpg" width="495" height="250"/>
+        <image name="txt5.jpg" width="400" height="298"/>
+        <image name="txt6.jpg" width="503" height="334"/>
+        <image name="txt7.jpg" width="499" height="331"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

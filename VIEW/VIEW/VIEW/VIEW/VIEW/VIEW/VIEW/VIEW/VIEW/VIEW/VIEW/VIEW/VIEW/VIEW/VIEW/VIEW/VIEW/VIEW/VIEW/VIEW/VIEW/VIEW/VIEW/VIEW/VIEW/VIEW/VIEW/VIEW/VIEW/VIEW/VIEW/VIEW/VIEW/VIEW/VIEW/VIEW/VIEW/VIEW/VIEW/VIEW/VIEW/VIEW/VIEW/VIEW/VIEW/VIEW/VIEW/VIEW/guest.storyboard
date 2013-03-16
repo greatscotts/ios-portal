@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C2034" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="x5g-lT-c9H">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Guests-->
+        <scene sceneID="k6b-0a-0Eb">
+            <objects>
+                <viewController id="x5g-lT-c9H" customClass="guests" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WZV-N5-evy">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="checker_bottom@2x.png" translatesAutoresizingMaskIntoConstraints="NO" id="aTY-ie-9Ij">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="9Ed-gz-btO"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pupcet.png" translatesAutoresizingMaskIntoConstraints="NO" id="A0W-fk-zSt">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="331" id="9OD-eq-n6C"/>
+                                    <constraint firstAttribute="height" constant="54" id="M9m-gi-UgD"/>
+                                </constraints>
+                            </imageView>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4RS-Yy-zot">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="370" id="g3W-UA-BzY"/>
+                                </constraints>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17r-l8-eII">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="Efp-Fv-ojw"/>
+                                    <constraint firstAttribute="width" constant="67" id="ekV-u1-aUr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="1_navigation_back.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sisback" destination="x5g-lT-c9H" eventType="touchUpInside" id="m3c-p1-ZA9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="GUEST" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYw-8N-0gC">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="279" id="2OC-fx-IKo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kYw-8N-0gC" firstAttribute="leading" secondItem="WZV-N5-evy" secondAttribute="leading" constant="113" id="3Kz-YW-63S"/>
+                            <constraint firstItem="aTY-ie-9Ij" firstAttribute="leading" secondItem="WZV-N5-evy" secondAttribute="leading" type="default" id="82h-gT-bxP"/>
+                            <constraint firstItem="4RS-Yy-zot" firstAttribute="centerX" secondItem="A0W-fk-zSt" secondAttribute="centerX" type="default" id="D8S-BL-EzM"/>
+                            <constraint firstItem="4RS-Yy-zot" firstAttribute="leading" secondItem="WZV-N5-evy" secondAttribute="leading" type="default" id="Dld-YB-iPA"/>
+                            <constraint firstItem="A0W-fk-zSt" firstAttribute="top" secondItem="WZV-N5-evy" secondAttribute="top" type="default" id="ItQ-pJ-bn2"/>
+                            <constraint firstItem="4RS-Yy-zot" firstAttribute="trailing" secondItem="WZV-N5-evy" secondAttribute="trailing" type="default" id="JL6-y2-EnI"/>
+                            <constraint firstItem="17r-l8-eII" firstAttribute="top" secondItem="WZV-N5-evy" secondAttribute="top" constant="7" id="Ng2-UJ-DXm"/>
+                            <constraint firstItem="aTY-ie-9Ij" firstAttribute="trailing" secondItem="WZV-N5-evy" secondAttribute="trailing" type="default" id="RT7-f6-h64"/>
+                            <constraint firstItem="aTY-ie-9Ij" firstAttribute="bottom" secondItem="WZV-N5-evy" secondAttribute="bottom" type="default" id="dWC-dJ-Plg"/>
+                            <constraint firstItem="4RS-Yy-zot" firstAttribute="top" secondItem="WZV-N5-evy" secondAttribute="top" constant="48" id="fLC-n6-XXt"/>
+                            <constraint firstItem="kYw-8N-0gC" firstAttribute="top" secondItem="WZV-N5-evy" secondAttribute="top" constant="13" id="pJY-DO-yhN"/>
+                            <constraint firstItem="17r-l8-eII" firstAttribute="leading" secondItem="WZV-N5-evy" secondAttribute="leading" type="default" id="vEF-K3-PzS"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="myWebView" destination="4RS-Yy-zot" id="Igi-Pk-8BN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vQv-RM-82G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="88" y="-9"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1_navigation_back.png" width="48" height="48"/>
+        <image name="checker_bottom@2x.png" width="640" height="46"/>
+        <image name="pupcet.png" width="800" height="134"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
